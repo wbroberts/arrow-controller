@@ -2,7 +2,7 @@
 
 To use:
 
-```
+```javascript
 const controller = new Controller();
 controller.init();
 ```
