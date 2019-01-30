@@ -1,10 +1,18 @@
 # Arrow Key Controller
 
+Super simple controller designed for canvas games that only use the arrow keys. While an arrow key is pressed down, it is true;
+
 To use:
 
 ```javascript
-const controller = new Controller();
-controller.init();
-```
+import { Controller } from 'controller';
 
-Adds event listeners to window.document (keyup & keydown). Will return true or false for ArrowUp, ArrowDown, ArrowLeft, and ArrowRight.
+const controller = new Controller();
+
+controller.init(); // adds event listener to document
+
+controller.up; // false
+controller.down; // false
+controller.right; // false
+controller.left; // false
+```
