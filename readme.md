@@ -5,7 +5,7 @@ Super simple controller designed for canvas games that only use the arrow keys. 
 To use:
 
 ```javascript
-import { Controller } from 'controller';
+import { Controller } from 'arrow-key-controller';
 
 const controller = new Controller();
 
