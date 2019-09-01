@@ -1,8 +1,12 @@
 # Arrow Key Controller
 
-Super simple controller designed for canvas games that only use the arrow keys. While an arrow key is pressed down, it is true;
+A simple, lightweight controller designed for canvas games that only uses the arrow keys. When an arrow key is pressed down, it is true.
 
-To use:
+## Install
+
+`$ npm install arrow-key-controller`
+
+## Use It
 
 ```javascript
 import { Controller } from 'arrow-key-controller';
